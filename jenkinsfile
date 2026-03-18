@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.7.158'
+        SERVER_IP      = '52.195.146.138'
         SSH_CREDENTIAL = 'node-app-key'
         REPO_URL       = 'https://github.com/ridhi-rj/jenkinsrepo.git'
         BRANCH         = 'main'
